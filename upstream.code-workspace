@@ -1,0 +1,52 @@
+{
+  "folders": [
+    {
+      "name": "@upstream",
+      "path": "."
+    },
+    {
+      "name": "overstory",
+      "path": "./overstory"
+    },
+    {
+      "name": "canopy",
+      "path": "./canopy"
+    },
+    {
+      "name": "seeds",
+      "path": "./seeds"
+    },
+    {
+      "name": "trellis",
+      "path": "./trellis"
+    },
+    {
+      "name": "gemini-cli",
+      "path": "./gemini-cli"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.direnv": true,
+      "**/.flox": true
+    },
+    "files.watcherExclude": {
+      "**/.direnv/**": true,
+      "**/.flox/**": true
+    },
+    "search.exclude": {
+      "**/.direnv": true,
+      "**/.flox": true
+    },
+    "git.detectSubmodules": false
+  },
+  "extensions": {
+    "recommendations": [
+      "mkhl.direnv",
+      "oven.bun-vscode",
+      "biomejs.biome",
+      "github.vscode-github-actions",
+      "github.vscode-pull-request-github"
+    ]
+  }
+}
