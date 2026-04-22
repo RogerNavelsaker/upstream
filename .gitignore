@@ -1,6 +1,5 @@
-.direnv/
-overstory/
-canopy/
-gemini-cli/
-seeds/
-trellis/
+# Child Repos
+/forks
+/canopy
+/seeds
+/trellis

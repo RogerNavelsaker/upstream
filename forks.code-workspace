@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "name": "forks",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "git.detectSubmodules": false
+  },
+  "extensions": {
+    "recommendations": [
+      "mkhl.direnv",
+      "github.vscode-github-actions",
+      "github.vscode-pull-request-github"
+    ]
+  }
+}
