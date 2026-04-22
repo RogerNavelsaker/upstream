@@ -8,7 +8,6 @@ workspace_root="${SHARED_WORKSPACE_ROOT:-$repo_root}"
 
 repos=(
   canopy
-  gemini-cli
   overstory
   seeds
   trellis

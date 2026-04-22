@@ -12,7 +12,6 @@ This repo is the shared workspace entrypoint for upstream source repos and PR-ca
 | [canopy](https://github.com/RogerNavelsaker/canopy) | Prompt-management source repo |
 | [seeds](https://github.com/RogerNavelsaker/seeds) | Spec and planning source repo |
 | [trellis](https://github.com/RogerNavelsaker/trellis) | Trellis source repo planned for upstream transfer |
-| [gemini-cli](https://github.com/RogerNavelsaker/gemini-cli) | Downstream prep/build repo consumed by `nixpkg-gemini` |
 
 ## Scope
 

@@ -19,10 +19,6 @@
     {
       "name": "trellis",
       "path": "./trellis"
-    },
-    {
-      "name": "gemini-cli",
-      "path": "./gemini-cli"
     }
   ],
   "settings": {
