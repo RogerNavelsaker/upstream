@@ -1,7 +1,6 @@
 *
 !*/
 !.gitignore
-!.flox/
 !.envrc
 !*.code-workspace
 !README.md

@@ -2,7 +2,7 @@
 
 Meta-project for active upstream source development under `RogerNavelsaker/*`.
 
-This repo is the shared workspace entrypoint for upstream source repos and PR-carrying repos. It keeps source work separate from packaging and runtime-infra repos while still providing the same Flox, `direnv`, workspace, and helper-script experience.
+This repo is the shared workspace entrypoint for upstream source repos and PR-carrying repos. It keeps source work separate from packaging and runtime-infra repos while providing the shared devenv, `direnv`, workspace, and helper-script experience.
 
 ## Repositories
 
@@ -22,10 +22,11 @@ This repo is the shared workspace entrypoint for upstream source repos and PR-ca
 ## Shared Workspace
 
 - Preferred layout: clone this repo as `~/Repositories/@upstream` and keep the underlying repos as ignored child directories inside `@upstream/`
-- Shell: Flox + `direnv` via [manifest.toml](/home/rona/Repositories/@upstream/.flox/env/manifest.toml) and [.envrc](/home/rona/Repositories/@upstream/.envrc)
+- Shell: shared workspace devenv + `direnv` via the root devenv configuration and this repo's `.envrc`
 - Workspace file: [upstream.code-workspace](/home/rona/Repositories/@upstream/upstream.code-workspace)
 - Bootstrap missing child repos with `./scripts/bootstrap`
 - Inspect workspace state with `./scripts/status`
+- Create missing workspace links with `~/Repositories/scripts/setup-workspace-links upstream`
 - Submodules are intentionally not used
 
 ## Related Meta Projects
